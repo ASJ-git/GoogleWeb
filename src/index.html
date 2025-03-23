@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    />
+    <link href="style.css" rel="stylesheet" />
+    <title>Google</title>
+  </head>
+  <body>
+    <!-- Nav Section -->
+    <section id="nav" class="bg-[#333]">
+      <div class="container mx-auto">
+        <div class="flex items-center">
+          <div class="flex items-center gap-2 px-3">
+            <div class="bg-red-700 size-4 rounded-full"></div>
+            <div class="bg-yellow-700 size-4 rounded-full"></div>
+            <div class="bg-green-700 size-4 rounded-full"></div>
+          </div>
+          <div class="flex bg-white py-1 ml-5 font-bold">
+            <div class="pl-5 pr-10">
+              <i class="fa-brands fa-google"></i> Google
+            </div>
+            <div class="px-5 text-xl cursor-pointer">
+              <i class="fa fa-times"></i>
+            </div>
+          </div>
+          <div class="text-xl text-white px-2 cursor-pointer">
+            <i class="fa fa-plus"></i>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--Search Area  -->
+    <section id="Search" class="p-2 border border-gray-300">
+      <div class="container mx-auto flex items-center justify-around">
+        <div class="flex gap-2.5">
+          <i class="cursor-pointer fas fa-arrow-left"></i>
+          <i class="cursor-pointer fas fa-arrow-right"></i>
+          <i class="cursor-pointer fas fa-rotate-right"></i>
+          <i class="cursor-pointer fas fa-house"></i>
+        </div>
+        <div class="flex gap-2">
+          <input
+            type="text"
+            class="bg-white px-10 focus:outline-0 hidden border border-gray-300 md:block lg:w-2xl"
+            placeholder="https://www.google.com"
+          />
+          <input
+            type="text"
+            class="bg-white px-1 focus:outline-0 border border-gray-300"
+            placeholder=" Search"
+          />
+        </div>
+        <div class="flex gap-1.5">
+          <i class="cursor-pointer fa fa-bars"></i>
+        </div>
+      </div>
+    </section>
+    <!-- Account area -->
+    <section id="acc">
+      <div class="container mx-auto flex justify-between items-center mt-2">
+        <div class="font-bold px-3 flex gap-2.5">
+          <h3>About</h3>
+          <h3>Store</h3>
+        </div>
+        <div class="font-bold px-3 flex items-center gap-3">
+          <h3>Gmail</h3>
+          <h3>Images</h3>
+          <a href="#" class="text-white bg-sky-500 px-3 py-1 hover:bg-blue-700"
+            >Sign In</a
+          >
+        </div>
+      </div>
+    </section>
+    <!-- Main body -->
+    <section id="main">
+      <div
+        class="container mx-auto flex flex-col justify-center items-center h-100"
+      >
+        <div class="text-8xl flex justify-center items-center">
+          <p class="text-blue-600">G</p>
+          <p class="text-red-600">o</p>
+          <p class="text-yellow-600">o</p>
+          <p class="text-blue-600">g</p>
+          <p class="text-green-600">l</p>
+          <p class="text-red-600">e</p>
+        </div>
+        <input
+          type="text"
+          class="bg-white px-10 py-3 mt-10 focus:outline-0 border border-gray-300 rounded-2xl md:w-2xl"
+          placeholder="https://www.google.com"
+        />
+      </div>
+    </section>
+  </body>
+</html>

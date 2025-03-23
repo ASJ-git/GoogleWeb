@@ -1,0 +1,12 @@
+@import 'tailwindcss';
+
+@layer base {
+  #Search i {
+    color: gray;
+    transition: color 0.4s;
+  }
+
+  #Search i:hover {
+    color: black;
+  }
+}
